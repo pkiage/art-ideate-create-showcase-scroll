@@ -1,0 +1,18 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@4.7.0
+
+jobs:
+  run-tests:
+    docker:
+      - image: cimg/node:17.2.0
+    steps:
+      - checkout
+      - run: "npm install -D"
+      - run: "npm test"
+
+workflows:
+  run-tests-workflow:
+    jobs:
+      - run-tests

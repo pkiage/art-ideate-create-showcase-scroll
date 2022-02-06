@@ -1,0 +1,22 @@
+{
+  "name": "ndoto-ukweli-pamoja-angani",
+  "version": "1.0.0",
+  "description": "A Pen created on CodePen.io. Original URL: [https://codepen.io/somakijana/pen/oNojmOz](https://codepen.io/somakijana/pen/oNojmOz).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.4.6",
+    "fast-check": "^2.21.0",
+    "jest": "^27.4.7",
+    "vite": "^2.7.13"
+  }
+}
