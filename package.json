@@ -1,11 +1,14 @@
 {
-  "name": "ndoto-ukweli-pamoja-angani",
-  "version": "1.0.0",
-  "description": "A Pen created on CodePen.io. Original URL: [https://codepen.io/somakijana/pen/oNojmOz](https://codepen.io/somakijana/pen/oNojmOz).",
-  "main": "index.js",
+  "repository": {
+    "url": "git+https://github.com/pkiage/art-ideate-create-showcase-scroll.git"
+  },
+  "homepage": "https://github.com/pkiage/art-ideate-create-showcase-scroll",
   "scripts": {
     "test": "jest",
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,7 @@
     "@types/jest": "^27.4.0",
     "babel-jest": "^27.4.6",
     "fast-check": "^2.21.0",
+    "gh-pages": "^3.2.3",
     "jest": "^27.4.7",
     "vite": "^2.7.13"
   }
