@@ -1,4 +1,4 @@
-# Ndoto-Ukweli-Pamoja-Angani
+# Ideate Create Showcase
 
 [![pkiage](https://circleci.com/gh/pkiage/art-ideate-create-showcase-scroll.svg?style=svg)](https://app.circleci.com/pipelines/github/pkiage/art-ideate-create-showcase-scroll)
 
